@@ -17,7 +17,23 @@ public class AnimalApp {
         print(b.sleep());
         print(b.fly());
 
+
+        Tiger t = new Tiger();
+        t.eat();
+        t.sleep();
+        t.growl();
+
+        Dog d = new Dog();
+        d.eat();
+        d.sleep();
+        d.bark();
+
+        Elephant e = new Elephant();
+        e.eat();
+        e.sleep();
+        e.roar();
     }
+
     private static void print(String s){
         System.out.println(s);
     }
